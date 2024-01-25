@@ -1,4 +1,9 @@
-﻿int[,] matrix = new int[3, 5];
+﻿//Задача №1
+//Создать двумерный массив с размерами 3x5
+//состоящий из целых чисел;
+//Вывести его элементы на экран
+
+int[,] matrix = new int[3, 5];
 
 Random rnd = new Random();
 for (int i = 0; i < matrix.GetLength(0); i++)
